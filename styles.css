@@ -6,15 +6,14 @@ body {
 
 .wrapper {
     display: grid;
-
     grid-template-columns: 50% 50%;
   }
+
  .ftr {
     display: grid;
-    width: 1440px;
-    margin: 0 auto;
     grid-template-columns: repeat(4, 25%); 
  }
+ 
 .attribution { 
     font-size: 11px;
     text-align: center;
