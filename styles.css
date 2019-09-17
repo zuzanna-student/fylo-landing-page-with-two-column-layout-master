@@ -1,3 +1,20 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    width: 1440px;
+    margin: 0 auto;
+}
+
+.wrapper {
+    display: grid;
+
+    grid-template-columns: 50% 50%;
+  }
+ .ftr {
+    display: grid;
+    width: 1440px;
+    margin: 0 auto;
+    grid-template-columns: repeat(4, 25%); 
+ }
 .attribution { 
     font-size: 11px;
     text-align: center;
@@ -6,3 +23,6 @@
 .attribution a {
     color: hsl(228, 45%, 44%);
 }
+
+
+font-family: 'Raleway', sans-serif;
